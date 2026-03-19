@@ -128,7 +128,7 @@ Onde:
 
 Inserir o gráfico abaixo:
 
-![Gráfico Tempo Execução](graficos/tempo_execucao.png)
+![Gráfico Tempo Execução](tempo_execucao.png)
 
 ---
 
@@ -142,7 +142,7 @@ Inserir o gráfico abaixo:
 | 8                        |    0.09          |              8                |
 | 12                       |    0.08          |              12               |
 
-![Gráfico Speedup](graficos/speedup.png)
+![Gráfico Speedup](speedup.png)
 
 Análise do Speedup:
 O gráfico de Speedup revela uma divergência significativa entre a curva ideal (linear) e os resultados experimentais. Enquanto o Speedup ideal prevê que o desempenho dobre conforme dobramos o número de núcleos, a aplicação apresentou uma curva descendente (Speedup < 1).
@@ -161,7 +161,7 @@ Isso ocorre porque, para uma carga de trabalho de apenas 100.000 inteiros, o ove
 | 8                        |    0.011 (1,1%)          |
 | 12                       |    0.006 (0,6%)          |
 
-![Gráfico Eficiência](graficos/eficiencia.png)
+![Gráfico Eficiência](eficiencia.png)
 
 Análise da Eficiência:
 O gráfico de eficiência apresenta uma queda abrupta logo após a transição do modo serial para 2 processos. A eficiência caiu de 100% para menos de 1% com 12 processos.
